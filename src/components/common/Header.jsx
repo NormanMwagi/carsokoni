@@ -1,5 +1,6 @@
 import React from 'react'
 import { Phone, Mail } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Header = () =>
 {
@@ -20,8 +21,8 @@ const Header = () =>
                     <li className='text-white font-semibold inline-block px-4'>Blog</li>
                 </ul>
                 <div className='flex items-center justify-between'>
-                    <button className='bg-white text-black px-4 py-2 rounded'>Login</button>
-                    <button className='bg-white text-black px-4 py-2 rounded ml-2'>Register</button>
+                    <Link to="/login" className='bg-white text-black px-4 py-2 rounded'>Login</Link>
+                    <Link to="/register" className='bg-white text-black px-4 py-2 rounded ml-2'>Register</Link>
                 </div>
             </div>
         </>
