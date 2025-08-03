@@ -1,23 +1,32 @@
-import React from 'react'
-import Header from './components/common/Header'
-import ProtectedRoute from './components/user/ProtectedRoute'
-import LoginPage from './pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
+import React from 'react';
+import ProtectedRoute from './components/user/ProtectedRoute';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import DashboardPage from './pages/HomePage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () =>
 {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Header />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/protected" element={<ProtectedRoute />} />
-      </Routes>
-    </Router>
-  )
-}
+      <div className="min-h-screen bg-gray-50">
+        <main className="container mx-auto py-8">
+          <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/" element={
+              <ProtectedRoute>
+                <HomePage />
+              </ProtectedRoute>
+            } />
 
-export default App
+          </Routes>
+        </main>
+      </div>
+    </Router>
+  );
+};
+
+export default App;

@@ -1,0 +1,538 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "secure123"
+    },
+    {
+      "id": "9fef",
+      "name": "Norman Mwagi",
+      "email": "normanmwagi@gmail.com",
+      "password": "Mambakobe"
+    }
+  ],
+  "cars": [
+    {
+      "id": "car_001",
+      "brand": "Toyota",
+      "model": "Land Cruiser V8",
+      "year": 2023,
+      "price": 18500000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+      "specifications": {
+        "engine": "4.5L V8 Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "8 km/l",
+        "seatingCapacity": 7,
+        "color": "White"
+      },
+      "features": ["4WD", "Sunroof", "Leather Seats", "Navigation", "Cruise Control"],
+      "description": "The ultimate luxury SUV for Kenyan terrain with unmatched durability and comfort.",
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "car_002",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "year": 2023,
+      "price": 6800000,
+      "category": "Pickup",
+      "images": [
+        "https://images.unsplash.com/photo-1550355291-bbee04a92027",
+        "https://images.unsplash.com/photo-1567818735868-e71b99932e29",
+        "https://images.unsplash.com/photo-1621330396171-52c00e0a0c1a"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1550355291-bbee04a92027",
+      "specifications": {
+        "engine": "2.8L Turbo Diesel",
+        "transmission": "Manual",
+        "fuelType": "Diesel",
+        "mileage": "12 km/l",
+        "seatingCapacity": 5,
+        "color": "Gray"
+      },
+      "features": ["4WD", "Towing Package", "ABS", "Airbags", "Touchscreen"],
+      "description": "Kenya's most reliable workhorse with excellent off-road capabilities.",
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": "car_003",
+      "brand": "Nissan",
+      "model": "X-Trail",
+      "year": 2023,
+      "price": 4200000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+        "https://images.unsplash.com/photo-1544829099-bd32c8ce0db2",
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+      "specifications": {
+        "engine": "2.0L 4-Cylinder",
+        "transmission": "CVT",
+        "fuelType": "Petrol",
+        "mileage": "14 km/l",
+        "seatingCapacity": 5,
+        "color": "Blue"
+      },
+      "features": ["AWD", "Rear Camera", "Bluetooth", "ABS", "Airbags"],
+      "description": "Versatile family SUV with modern features and comfortable ride.",
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": "car_004",
+      "brand": "Mazda",
+      "model": "CX-5",
+      "year": 2023,
+      "price": 4800000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1617814065893-0079e5b93ffa",
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738",
+        "https://images.unsplash.com/photo-1617814065893-0079e5b93ffa"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1617814065893-0079e5b93ffa",
+      "specifications": {
+        "engine": "2.5L SkyActiv-G",
+        "transmission": "Automatic",
+        "fuelType": "Petrol",
+        "mileage": "13 km/l",
+        "seatingCapacity": 5,
+        "color": "Red"
+      },
+      "features": ["Sunroof", "Leather Seats", "Bose Audio", "Navigation", "LED Headlights"],
+      "description": "Sporty SUV with premium interior and responsive handling.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "car_005",
+      "brand": "Honda",
+      "model": "CR-V",
+      "year": 2023,
+      "price": 5200000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2",
+      "specifications": {
+        "engine": "1.5L Turbo",
+        "transmission": "CVT",
+        "fuelType": "Petrol",
+        "mileage": "15 km/l",
+        "seatingCapacity": 5,
+        "color": "Silver"
+      },
+      "features": ["Honda Sensing", "Apple CarPlay", "Power Tailgate", "Dual-Zone AC", "Remote Start"],
+      "description": "Reliable family SUV with advanced safety features and spacious interior.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "car_006",
+      "brand": "Subaru",
+      "model": "Forester",
+      "year": 2023,
+      "price": 4500000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a",
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a",
+      "specifications": {
+        "engine": "2.5L Boxer",
+        "transmission": "CVT",
+        "fuelType": "Petrol",
+        "mileage": "14 km/l",
+        "seatingCapacity": 5,
+        "color": "Green"
+      },
+      "features": ["Symmetrical AWD", "EyeSight Safety", "X-Mode", "Roof Rails", "Heated Seats"],
+      "description": "All-weather capability with standard AWD and excellent visibility.",
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": "car_007",
+      "brand": "Mercedes-Benz",
+      "model": "GLE 350",
+      "year": 2023,
+      "price": 16500000,
+      "category": "Luxury SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d",
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1553440569-bcc63803a83d",
+      "specifications": {
+        "engine": "2.0L Turbo",
+        "transmission": "9-Speed Automatic",
+        "fuelType": "Petrol",
+        "mileage": "10 km/l",
+        "seatingCapacity": 5,
+        "color": "Black"
+      },
+      "features": ["MBUX System", "Panoramic Sunroof", "Ambient Lighting", "Premium Sound", "Air Suspension"],
+      "description": "Luxurious SUV with cutting-edge technology and refined performance.",
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "car_008",
+      "brand": "BMW",
+      "model": "X5",
+      "year": 2023,
+      "price": 15800000,
+      "category": "Luxury SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "specifications": {
+        "engine": "3.0L Turbo",
+        "transmission": "8-Speed Automatic",
+        "fuelType": "Petrol",
+        "mileage": "11 km/l",
+        "seatingCapacity": 5,
+        "color": "Blue"
+      },
+      "features": ["iDrive System", "Heated/Ventilated Seats", "Harman Kardon Sound", "Gesture Control", "Laser Lights"],
+      "description": "Sporty luxury SUV with dynamic handling and premium amenities.",
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": "car_009",
+      "brand": "Toyota",
+      "model": "Prado TX",
+      "year": 2023,
+      "price": 12500000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+        "https://images.unsplash.com/photo-1550355291-bbee04a92027",
+        "https://images.unsplash.com/photo-1567818735868-e71b99932e29"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7",
+      "specifications": {
+        "engine": "2.8L Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "10 km/l",
+        "seatingCapacity": 7,
+        "color": "Silver"
+      },
+      "features": ["KDSS Suspension", "Multi-Terrain Select", "Crawl Control", "Rear AC", "Power Liftgate"],
+      "description": "Premium off-roader with exceptional comfort for long journeys.",
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": "car_010",
+      "brand": "Nissan",
+      "model": "Navara",
+      "year": 2023,
+      "price": 5800000,
+      "category": "Pickup",
+      "images": [
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+        "https://images.unsplash.com/photo-1617814065893-0079e5b93ffa",
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+      "specifications": {
+        "engine": "2.5L Turbo Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "12 km/l",
+        "seatingCapacity": 5,
+        "color": "White"
+      },
+      "features": ["Utili-Track System", "Rear Locking Differential", "Around View Monitor", "Dual AC", "Bed Liner"],
+      "description": "Robust pickup with advanced utility features and comfortable cabin.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "car_011",
+      "brand": "Mazda",
+      "model": "BT-50",
+      "year": 2023,
+      "price": 5500000,
+      "category": "Pickup",
+      "images": [
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738",
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738",
+      "specifications": {
+        "engine": "3.0L Turbo Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "11 km/l",
+        "seatingCapacity": 5,
+        "color": "Black"
+      },
+      "features": ["Apple CarPlay", "Android Auto", "360 Camera", "Tonneau Cover", "Lane Assist"],
+      "description": "Stylish pickup with car-like comfort and strong towing capacity.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "car_012",
+      "brand": "Honda",
+      "model": "Accord",
+      "year": 2023,
+      "price": 6200000,
+      "category": "Sedan",
+      "images": [
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2",
+        "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8",
+        "https://images.unsplash.com/photo-1617814076367-b759c7d7e738"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2",
+      "specifications": {
+        "engine": "1.5L Turbo",
+        "transmission": "CVT",
+        "fuelType": "Petrol",
+        "mileage": "16 km/l",
+        "seatingCapacity": 5,
+        "color": "Burgundy"
+      },
+      "features": ["Honda Sensing", "Leather Interior", "Heated Seats", "Sunroof", "Wireless Charging"],
+      "description": "Sophisticated sedan with premium features and fuel efficiency.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "car_013",
+      "brand": "Toyota",
+      "model": "Rav4",
+      "year": 2023,
+      "price": 5800000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+        "https://images.unsplash.com/photo-1550355291-bbee04a92027",
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+      "specifications": {
+        "engine": "2.5L Hybrid",
+        "transmission": "e-CVT",
+        "fuelType": "Petrol",
+        "mileage": "20 km/l",
+        "seatingCapacity": 5,
+        "color": "Gray"
+      },
+      "features": ["Hybrid System", "AWD", "Smart Key", "Power Liftgate", "Safety Sense"],
+      "description": "Efficient hybrid SUV with modern styling and Toyota reliability.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": "car_014",
+      "brand": "Mitsubishi",
+      "model": "Pajero Sport",
+      "year": 2023,
+      "price": 7800000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d",
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1553440569-bcc63803a83d",
+      "specifications": {
+        "engine": "2.4L Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "12 km/l",
+        "seatingCapacity": 7,
+        "color": "White"
+      },
+      "features": ["Super Select 4WD", "Multi Terrain Mode", "Rockford Audio", "Dual Zone AC", "Rear Diff Lock"],
+      "description": "Capable 7-seater SUV with serious off-road credentials.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "car_015",
+      "brand": "Land Rover",
+      "model": "Range Rover Sport",
+      "year": 2023,
+      "price": 22500000,
+      "category": "Luxury SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+        "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d",
+        "https://images.unsplash.com/photo-1553440569-bcc63803a83d"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "specifications": {
+        "engine": "3.0L Turbo",
+        "transmission": "8-Speed Automatic",
+        "fuelType": "Petrol",
+        "mileage": "9 km/l",
+        "seatingCapacity": 5,
+        "color": "Black"
+      },
+      "features": ["Terrain Response", "Meridian Sound", "Massage Seats", "Air Suspension", "Heated Steering"],
+      "description": "Ultimate luxury SUV with unmatched presence and capability.",
+      "inStock": true,
+      "rating": 5.0
+    },
+    {
+      "id": "car_016",
+      "brand": "Isuzu",
+      "model": "D-Max",
+      "year": 2023,
+      "price": 6200000,
+      "category": "Pickup",
+      "images": [
+        "https://images.unsplash.com/photo-1567818735868-e71b99932e29",
+        "https://images.unsplash.com/photo-1550355291-bbee04a92027",
+        "https://images.unsplash.com/photo-1621330396171-52c00e0a0c1a"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1567818735868-e71b99932e29",
+      "specifications": {
+        "engine": "3.0L Turbo Diesel",
+        "transmission": "Automatic",
+        "fuelType": "Diesel",
+        "mileage": "13 km/l",
+        "seatingCapacity": 5,
+        "color": "Blue"
+      },
+      "features": ["4WD", "Hill Descent Control", "Traction Control", "Bedliner", "Rear Camera"],
+      "description": "Durable work truck with excellent payload capacity.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "car_017",
+      "brand": "Toyota",
+      "model": "Corolla Cross",
+      "year": 2023,
+      "price": 4800000,
+      "category": "Crossover",
+      "images": [
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+        "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a",
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2",
+      "specifications": {
+        "engine": "1.8L Hybrid",
+        "transmission": "e-CVT",
+        "fuelType": "Petrol",
+        "mileage": "21 km/l",
+        "seatingCapacity": 5,
+        "color": "Red"
+      },
+      "features": ["Hybrid System", "Safety Sense", "Apple CarPlay", "Power Liftgate", "LED Lights"],
+      "description": "Compact crossover with Toyota reliability and hybrid efficiency.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": "car_018",
+      "brand": "Nissan",
+      "model": "Qashqai",
+      "year": 2023,
+      "price": 4200000,
+      "category": "Crossover",
+      "images": [
+        "https://images.unsplash.com/photo-1544829099-bd32c8ce0db2",
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1544829099-bd32c8ce0db2",
+      "specifications": {
+        "engine": "1.3L Turbo",
+        "transmission": "Automatic",
+        "fuelType": "Petrol",
+        "mileage": "16 km/l",
+        "seatingCapacity": 5,
+        "color": "Orange"
+      },
+      "features": ["ProPILOT Assist", "Bose Audio", "Panoramic Sunroof", "Digital Dash", "360 Camera"],
+      "description": "Stylish urban crossover with advanced driver assistance.",
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": "car_019",
+      "brand": "Suzuki",
+      "model": "Vitara",
+      "year": 2023,
+      "price": 3200000,
+      "category": "Crossover",
+      "images": [
+        "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+        "https://images.unsplash.com/photo-1544829099-bd32c8ce0db2",
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c",
+      "specifications": {
+        "engine": "1.4L Turbo",
+        "transmission": "Automatic",
+        "fuelType": "Petrol",
+        "mileage": "17 km/l",
+        "seatingCapacity": 5,
+        "color": "Yellow"
+      },
+      "features": ["AllGrip AWD", "Apple CarPlay", "Keyless Entry", "Rear Sensors", "Roof Rails"],
+      "description": "Compact and agile crossover with all-wheel-drive capability.",
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": "car_020",
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2023,
+      "price": 6500000,
+      "category": "SUV",
+      "images": [
+        "https://images.unsplash.com/photo-1549399542-7e845fec1fda",
+        "https://images.unsplash.com/photo-1542362567-b07e54358753",
+        "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7"
+      ],
+      "thumbnail": "https://images.unsplash.com/photo-1549399542-7e845fec1fda",
+      "specifications": {
+        "engine": "2.0L TSI",
+        "transmission": "DSG Automatic",
+        "fuelType": "Petrol",
+        "mileage": "14 km/l",
+        "seatingCapacity": 5,
+        "color": "White"
+      },
+      "features": ["4MOTION AWD", "Digital Cockpit", "App Connect", "Panoramic Sunroof", "Park Assist"],
+      "description": "Premium German SUV with sophisticated driving dynamics.",
+      "inStock": true,
+      "rating": 4.7
+    }
+  ]
+}
