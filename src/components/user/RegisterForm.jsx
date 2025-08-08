@@ -14,7 +14,7 @@ const RegisterForm = () =>
     });
     const [errors, setErrors] = useState({});
     const dispatch = useDispatch();
-    const { status, error } = useSelector((state) => state.user);
+    const { loading, error } = useSelector((state) => state.user);
     const navigate = useNavigate();
     const handleChange = (e) =>
     {
@@ -131,19 +131,19 @@ const RegisterForm = () =>
                         {errors.confirmPassword && <p className="mt-1 text-sm text-red-500">{errors.confirmPassword}</p>}
                     </div>
                 </div>
-                {status === 'failed' && (
+                {error && (
                     <div className="p-3 text-center text-red-500 bg-red-100 rounded-lg">
-                        {error}
+                        {typeof error === 'string' ? error : 'Registration failed. Please try again.'}
                     </div>
                 )}
 
                 <div>
                     <button
                         type="submit"
-                        disabled={status === 'loading'}
+                        disabled={loading}
                         className="relative flex justify-center w-full px-4 py-3 text-sm font-medium text-white bg-gray-900 border border-transparent rounded-lg group hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 disabled:bg-gray-400"
                     >
-                        {status === 'loading' ? 'Creating Account...' : 'Sign Up'}
+                        {loading ? 'Creating Account...' : 'Sign Up'}
                     </button>
                 </div>
                 <div className="text-sm text-center">

@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { useDispatch, useSelector } from 'react-redux';
+import { logoutUser } from '../../store/slices/userSlice';
 
 const Navbar = () =>
 {
     const [open, setOpen] = useState(false);
+    const dispatch = useDispatch();
+    const { isAuthenticated } = useSelector((state) => state.user);
 
     return (
         <div className="bg-white shadow-md">
@@ -22,20 +26,31 @@ const Navbar = () =>
                 </ul>
 
                 {/* Auth Buttons (desktop) */}
-                <div className="hidden md:flex gap-2">
-                    <Link
-                        to="/login"
-                        className="px-4 py-2 text-sm rounded-md border border-gray-700 text-gray-700 hover:bg-gray-100"
-                    >
-                        Login
-                    </Link>
-                    <Link
-                        to="/register"
-                        className="px-4 py-2 text-sm rounded-md bg-black text-white hover:opacity-90"
-                    >
-                        Sign Up
-                    </Link>
-                </div>
+                {isAuthenticated ? (
+                    <div className="hidden md:flex gap-2">
+                        <button
+                            className="px-4 py-2 text-sm rounded-md bg-red-600 text-white hover:bg-red-700"
+                            onClick={() => dispatch(logoutUser())}
+                        >
+                            Logout
+                        </button>
+                    </div>
+                ) : (
+                    <div className="hidden md:flex gap-2">
+                        <Link
+                            to="/login"
+                            className="px-4 py-2 text-sm rounded-md border border-gray-700 text-gray-700 hover:bg-gray-100"
+                        >
+                            Login
+                        </Link>
+                        <Link
+                            to="/register"
+                            className="px-4 py-2 text-sm rounded-md bg-black text-white hover:opacity-90"
+                        >
+                            Sign Up
+                        </Link>
+                    </div>
+                )}
 
                 {/* Mobile Hamburger */}
                 <button
@@ -59,26 +74,39 @@ const Navbar = () =>
                         <li><Link to="/contact" onClick={() => setOpen(false)}>Contact</Link></li>
                         <li><Link to="/blog" onClick={() => setOpen(false)}>Blog</Link></li>
                     </ul>
-                    <div className="flex flex-col gap-2">
-                        <Link
-                            to="/login"
-                            className="block text-center px-4 py-2 text-sm rounded-md border border-gray-700 text-gray-700 hover:bg-gray-100"
-                            onClick={() => setOpen(false)}
-                        >
-                            Login
-                        </Link>
-                        <Link
-                            to="/register"
-                            className="block text-center px-4 py-2 text-sm rounded-md bg-black text-white hover:opacity-90"
-                            onClick={() => setOpen(false)}
-                        >
-                            Sign Up
-                        </Link>
-                    </div>
+
+                    {isAuthenticated ? (
+                        <div className="flex flex-col gap-2">
+                            <button
+                                className="block text-center px-4 py-2 text-sm rounded-md border border-gray-700 text-gray-700 hover:bg-gray-100"
+                                onClick={() => dispatch(logoutUser())}
+                            >
+                                Logout
+                            </button>
+                        </div>
+                    ) : (
+                        <div className="flex flex-col gap-2">
+                            <Link
+                                to="/login"
+                                className="block text-center px-4 py-2 text-sm rounded-md border border-gray-700 text-gray-700 hover:bg-gray-100"
+                                onClick={() => setOpen(false)}
+                            >
+                                Login
+                            </Link>
+                            <Link
+                                to="/register"
+                                className="block text-center px-4 py-2 text-sm rounded-md bg-black text-white hover:opacity-90"
+                                onClick={() => setOpen(false)}
+                            >
+                                Sign Up
+                            </Link>
+                        </div>
+                    )}
                 </div>
             )}
         </div>
     );
+
 }
 
 export default Navbar;

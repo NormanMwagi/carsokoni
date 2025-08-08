@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John Doe",
       "email": "john@example.com",
       "password": "secure123"
@@ -11,6 +11,18 @@
       "name": "Norman Mwagi",
       "email": "normanmwagi@gmail.com",
       "password": "Mambakobe"
+    },
+    {
+      "id": "383a",
+      "name": "Duke Omwembi",
+      "email": "niceray@gmail.com",
+      "password": "Mambakobe824."
+    },
+    {
+      "id": "f4d4",
+      "name": "Mwagi Norman",
+      "email": "normanmwaggi@gmail.com",
+      "password": "Mamba824."
     }
   ],
   "cars": [
@@ -35,7 +47,13 @@
         "seatingCapacity": 7,
         "color": "White"
       },
-      "features": ["4WD", "Sunroof", "Leather Seats", "Navigation", "Cruise Control"],
+      "features": [
+        "4WD",
+        "Sunroof",
+        "Leather Seats",
+        "Navigation",
+        "Cruise Control"
+      ],
       "description": "The ultimate luxury SUV for Kenyan terrain with unmatched durability and comfort.",
       "inStock": true,
       "rating": 4.9
@@ -61,7 +79,13 @@
         "seatingCapacity": 5,
         "color": "Gray"
       },
-      "features": ["4WD", "Towing Package", "ABS", "Airbags", "Touchscreen"],
+      "features": [
+        "4WD",
+        "Towing Package",
+        "ABS",
+        "Airbags",
+        "Touchscreen"
+      ],
       "description": "Kenya's most reliable workhorse with excellent off-road capabilities.",
       "inStock": true,
       "rating": 4.8
@@ -87,7 +111,13 @@
         "seatingCapacity": 5,
         "color": "Blue"
       },
-      "features": ["AWD", "Rear Camera", "Bluetooth", "ABS", "Airbags"],
+      "features": [
+        "AWD",
+        "Rear Camera",
+        "Bluetooth",
+        "ABS",
+        "Airbags"
+      ],
       "description": "Versatile family SUV with modern features and comfortable ride.",
       "inStock": true,
       "rating": 4.5
@@ -113,7 +143,13 @@
         "seatingCapacity": 5,
         "color": "Red"
       },
-      "features": ["Sunroof", "Leather Seats", "Bose Audio", "Navigation", "LED Headlights"],
+      "features": [
+        "Sunroof",
+        "Leather Seats",
+        "Bose Audio",
+        "Navigation",
+        "LED Headlights"
+      ],
       "description": "Sporty SUV with premium interior and responsive handling.",
       "inStock": true,
       "rating": 4.7
@@ -139,7 +175,13 @@
         "seatingCapacity": 5,
         "color": "Silver"
       },
-      "features": ["Honda Sensing", "Apple CarPlay", "Power Tailgate", "Dual-Zone AC", "Remote Start"],
+      "features": [
+        "Honda Sensing",
+        "Apple CarPlay",
+        "Power Tailgate",
+        "Dual-Zone AC",
+        "Remote Start"
+      ],
       "description": "Reliable family SUV with advanced safety features and spacious interior.",
       "inStock": true,
       "rating": 4.6
@@ -165,7 +207,13 @@
         "seatingCapacity": 5,
         "color": "Green"
       },
-      "features": ["Symmetrical AWD", "EyeSight Safety", "X-Mode", "Roof Rails", "Heated Seats"],
+      "features": [
+        "Symmetrical AWD",
+        "EyeSight Safety",
+        "X-Mode",
+        "Roof Rails",
+        "Heated Seats"
+      ],
       "description": "All-weather capability with standard AWD and excellent visibility.",
       "inStock": true,
       "rating": 4.5
@@ -191,7 +239,13 @@
         "seatingCapacity": 5,
         "color": "Black"
       },
-      "features": ["MBUX System", "Panoramic Sunroof", "Ambient Lighting", "Premium Sound", "Air Suspension"],
+      "features": [
+        "MBUX System",
+        "Panoramic Sunroof",
+        "Ambient Lighting",
+        "Premium Sound",
+        "Air Suspension"
+      ],
       "description": "Luxurious SUV with cutting-edge technology and refined performance.",
       "inStock": true,
       "rating": 4.9
@@ -217,7 +271,13 @@
         "seatingCapacity": 5,
         "color": "Blue"
       },
-      "features": ["iDrive System", "Heated/Ventilated Seats", "Harman Kardon Sound", "Gesture Control", "Laser Lights"],
+      "features": [
+        "iDrive System",
+        "Heated/Ventilated Seats",
+        "Harman Kardon Sound",
+        "Gesture Control",
+        "Laser Lights"
+      ],
       "description": "Sporty luxury SUV with dynamic handling and premium amenities.",
       "inStock": true,
       "rating": 4.9
@@ -243,7 +303,13 @@
         "seatingCapacity": 7,
         "color": "Silver"
       },
-      "features": ["KDSS Suspension", "Multi-Terrain Select", "Crawl Control", "Rear AC", "Power Liftgate"],
+      "features": [
+        "KDSS Suspension",
+        "Multi-Terrain Select",
+        "Crawl Control",
+        "Rear AC",
+        "Power Liftgate"
+      ],
       "description": "Premium off-roader with exceptional comfort for long journeys.",
       "inStock": true,
       "rating": 4.8
@@ -269,7 +335,13 @@
         "seatingCapacity": 5,
         "color": "White"
       },
-      "features": ["Utili-Track System", "Rear Locking Differential", "Around View Monitor", "Dual AC", "Bed Liner"],
+      "features": [
+        "Utili-Track System",
+        "Rear Locking Differential",
+        "Around View Monitor",
+        "Dual AC",
+        "Bed Liner"
+      ],
       "description": "Robust pickup with advanced utility features and comfortable cabin.",
       "inStock": true,
       "rating": 4.6
@@ -295,7 +367,13 @@
         "seatingCapacity": 5,
         "color": "Black"
       },
-      "features": ["Apple CarPlay", "Android Auto", "360 Camera", "Tonneau Cover", "Lane Assist"],
+      "features": [
+        "Apple CarPlay",
+        "Android Auto",
+        "360 Camera",
+        "Tonneau Cover",
+        "Lane Assist"
+      ],
       "description": "Stylish pickup with car-like comfort and strong towing capacity.",
       "inStock": true,
       "rating": 4.7
@@ -321,7 +399,13 @@
         "seatingCapacity": 5,
         "color": "Burgundy"
       },
-      "features": ["Honda Sensing", "Leather Interior", "Heated Seats", "Sunroof", "Wireless Charging"],
+      "features": [
+        "Honda Sensing",
+        "Leather Interior",
+        "Heated Seats",
+        "Sunroof",
+        "Wireless Charging"
+      ],
       "description": "Sophisticated sedan with premium features and fuel efficiency.",
       "inStock": true,
       "rating": 4.7
@@ -347,7 +431,13 @@
         "seatingCapacity": 5,
         "color": "Gray"
       },
-      "features": ["Hybrid System", "AWD", "Smart Key", "Power Liftgate", "Safety Sense"],
+      "features": [
+        "Hybrid System",
+        "AWD",
+        "Smart Key",
+        "Power Liftgate",
+        "Safety Sense"
+      ],
       "description": "Efficient hybrid SUV with modern styling and Toyota reliability.",
       "inStock": true,
       "rating": 4.7
@@ -373,7 +463,13 @@
         "seatingCapacity": 7,
         "color": "White"
       },
-      "features": ["Super Select 4WD", "Multi Terrain Mode", "Rockford Audio", "Dual Zone AC", "Rear Diff Lock"],
+      "features": [
+        "Super Select 4WD",
+        "Multi Terrain Mode",
+        "Rockford Audio",
+        "Dual Zone AC",
+        "Rear Diff Lock"
+      ],
       "description": "Capable 7-seater SUV with serious off-road credentials.",
       "inStock": true,
       "rating": 4.6
@@ -399,10 +495,16 @@
         "seatingCapacity": 5,
         "color": "Black"
       },
-      "features": ["Terrain Response", "Meridian Sound", "Massage Seats", "Air Suspension", "Heated Steering"],
+      "features": [
+        "Terrain Response",
+        "Meridian Sound",
+        "Massage Seats",
+        "Air Suspension",
+        "Heated Steering"
+      ],
       "description": "Ultimate luxury SUV with unmatched presence and capability.",
       "inStock": true,
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": "car_016",
@@ -425,7 +527,13 @@
         "seatingCapacity": 5,
         "color": "Blue"
       },
-      "features": ["4WD", "Hill Descent Control", "Traction Control", "Bedliner", "Rear Camera"],
+      "features": [
+        "4WD",
+        "Hill Descent Control",
+        "Traction Control",
+        "Bedliner",
+        "Rear Camera"
+      ],
       "description": "Durable work truck with excellent payload capacity.",
       "inStock": true,
       "rating": 4.6
@@ -451,7 +559,13 @@
         "seatingCapacity": 5,
         "color": "Red"
       },
-      "features": ["Hybrid System", "Safety Sense", "Apple CarPlay", "Power Liftgate", "LED Lights"],
+      "features": [
+        "Hybrid System",
+        "Safety Sense",
+        "Apple CarPlay",
+        "Power Liftgate",
+        "LED Lights"
+      ],
       "description": "Compact crossover with Toyota reliability and hybrid efficiency.",
       "inStock": true,
       "rating": 4.6
@@ -477,7 +591,13 @@
         "seatingCapacity": 5,
         "color": "Orange"
       },
-      "features": ["ProPILOT Assist", "Bose Audio", "Panoramic Sunroof", "Digital Dash", "360 Camera"],
+      "features": [
+        "ProPILOT Assist",
+        "Bose Audio",
+        "Panoramic Sunroof",
+        "Digital Dash",
+        "360 Camera"
+      ],
       "description": "Stylish urban crossover with advanced driver assistance.",
       "inStock": true,
       "rating": 4.5
@@ -503,7 +623,13 @@
         "seatingCapacity": 5,
         "color": "Yellow"
       },
-      "features": ["AllGrip AWD", "Apple CarPlay", "Keyless Entry", "Rear Sensors", "Roof Rails"],
+      "features": [
+        "AllGrip AWD",
+        "Apple CarPlay",
+        "Keyless Entry",
+        "Rear Sensors",
+        "Roof Rails"
+      ],
       "description": "Compact and agile crossover with all-wheel-drive capability.",
       "inStock": true,
       "rating": 4.4
@@ -529,7 +655,13 @@
         "seatingCapacity": 5,
         "color": "White"
       },
-      "features": ["4MOTION AWD", "Digital Cockpit", "App Connect", "Panoramic Sunroof", "Park Assist"],
+      "features": [
+        "4MOTION AWD",
+        "Digital Cockpit",
+        "App Connect",
+        "Panoramic Sunroof",
+        "Park Assist"
+      ],
       "description": "Premium German SUV with sophisticated driving dynamics.",
       "inStock": true,
       "rating": 4.7
